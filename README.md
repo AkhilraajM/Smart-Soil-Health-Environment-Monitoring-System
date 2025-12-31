@@ -28,7 +28,7 @@ The system continuously monitors environmental health through:
 2. **Python** processes the data and uses a Decision Tree Machine Learning model to determine if irrigation is required
 3. **Command Feedback**: Python sends a command back to the Arduino to toggle the Water Pump (Motor) and Buzzer based on the prediction
 
-## 🛠 Hardware & Software Requirements
+## Hardware & Software Requirements
 
 ### Hardware
 
@@ -144,3 +144,4 @@ Embedded Systems | Computer Vision | Applied Machine Learning
 
 
 This project is open source and available for educational purposes.
+
