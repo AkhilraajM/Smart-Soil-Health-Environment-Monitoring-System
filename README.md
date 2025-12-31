@@ -98,7 +98,7 @@ Start the real-time monitoring and automated control system:
 python Interface.py
 ```
 
-## 📊 Technical Specifications
+## Technical Specifications
 
 ### Serial Data Format
 
@@ -122,24 +122,25 @@ Example: `1002,224`
 - **Prediction: ON** → Motor Activates (Dry Soil detected by ML)
 - **Prediction: OFF** → Motor Deactivates (Sufficient moisture)
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 - **COM Port Access Denied**: Ensure the Arduino Serial Monitor is closed before running Python scripts
 - **Inverted Logic**: Soil sensors often return higher values for dry soil; the code includes calibration to handle this inversion
 - **Feature Warning**: If you see a "Missing Feature Names" warning during prediction, it is a known scikit-learn behavior that does not impact prediction accuracy
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Integrate DHT11/22 for Temperature and Humidity
 - Add a Web Dashboard for remote data visualization
 - Implement IoT capabilities (ESP8266/ESP32) for cloud storage
 - Deploy a deep learning model for more complex environmental predictions
 
-## 👤 Author
+## Author
 
 **Akhilraaj M**  
 Embedded Systems | Computer Vision | Applied Machine Learning
 
-## 📄 License
+## License
+
 
 This project is open source and available for educational purposes.
